@@ -9662,14 +9662,14 @@ h5,
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
 	color: #3d3374;
-    border-bottom: 5px solid #3d3374;
-    /* border-color: 4px solid #000000;
+	border-bottom: 5px solid #3d3374;
+	/* border-color: 4px solid #000000;
     background:#11ADE8;
     padding: 6px 0; */
 }
 
 .ftco-navbar-light.scrolled .nav-link:hover {
-    color: #3d3374;
+	color: #3d3374;
 }
 @media (max-width: 991.98px) {
 	.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -9814,8 +9814,8 @@ h5,
 	color: #000 !important;
 }
 
-.ftco-navbar-light.scrolled .nav-link:hover{
-    color: #0033c7;
+.ftco-navbar-light.scrolled .nav-link:hover {
+	color: #0033c7;
 }
 
 /* .ftco-navbar-light.scrolled .nav-link.active {
@@ -11580,7 +11580,6 @@ textarea.form-control {
 	}
 }
 
-
 /* extra css */
 
 /* .carousel-inner{
@@ -11588,37 +11587,35 @@ textarea.form-control {
 } */
 
 .carousel-inner > .carousel-item > img {
-	 height: 605px;
-	 width: 1303px; 
-	} 
+	height: 605px;
+	width: 1303px;
+}
 
-
-	@media only screen and (min-width: 768px) and (max-width: 1024px) {
-		.carousel-caption {
-		  
-		}
-	  }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.carousel-caption {
+	}
+}
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
 	.carousel-caption {
 		margin-bottom: 0px;
-	
 	}
 }
 
 .carousel-caption > h1 {
-	font-family:Montserrif,sans-serif;font-size:65px;color:#003F87;font-weight:600
-
+	font-family: Montserrif, sans-serif;
+	font-size: 65px;
+	color: #003f87;
+	font-weight: 600;
 }
 
-	  @media only screen and (min-width: 360px) and (max-width: 640px) {
-		.carousel-caption > h1 {
-				font-size: 55px;
-		  
-		}
-	  }
-	  
-	  /* @media screen and (min-width: 992px) {
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+	.carousel-caption > h1 {
+		font-size: 55px;
+	}
+}
+
+/* @media screen and (min-width: 992px) {
 		.container {
 		  max-width: 930px;
 		}
