@@ -11579,3 +11579,56 @@ textarea.form-control {
 		stroke-dashoffset: -136px;
 	}
 }
+
+
+/* extra css */
+
+/* .carousel-inner{
+    height: 597px;
+} */
+
+.carousel-inner > .carousel-item > img {
+	 height: 605px;
+	 width: 1303px; 
+	} 
+
+
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+		.carousel-caption {
+		  
+		}
+	  }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+	.carousel-caption {
+		margin-bottom: 0px;
+	
+	}
+}
+
+.carousel-caption > h1 {
+	font-family:Montserrif,sans-serif;font-size:65px;color:#003F87;font-weight:600
+
+}
+
+	  @media only screen and (min-width: 360px) and (max-width: 640px) {
+		.carousel-caption > h1 {
+				font-size: 55px;
+		  
+		}
+	  }
+	  
+	  /* @media screen and (min-width: 992px) {
+		.container {
+		  max-width: 930px;
+		}
+	  } */
+
+/* .carousel-caption {
+	
+	left: 25%;
+	top: 50% !important;
+	transform: translateY(-50%);
+	text-align: left;
+	bottom: 50%;
+} */
